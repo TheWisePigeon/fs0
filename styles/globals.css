@@ -5,3 +5,12 @@
 body{
   @apply font-mono;
 }
+
+@font-face{
+  font-family: "iloveglitter";
+  src: url('../static/iloveglitter.ttf');
+}
+
+.header{
+  font-family: "iloveglitter";
+}
