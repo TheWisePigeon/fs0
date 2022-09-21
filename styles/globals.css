@@ -11,6 +11,18 @@ body{
   src: url('../static/iloveglitter.ttf');
 }
 
+@font-face{
+  font-family: "affection";
+  src: url('../static/affection.ttf');
+}
+
 .header{
   font-family: "iloveglitter";
+}
+
+.cta-btn{
+  @apply   bg-pink-500 p-1 text-white ;
+  font-family: "affection";
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
